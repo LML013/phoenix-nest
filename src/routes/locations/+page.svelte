@@ -34,3 +34,9 @@
 <h3><a href="https://www.rekreationgames.com/">Rekreation Games</a></h3>
 <p>Open Play on Saturdays</p>
 <div class="location">1075 S Arizona Ave, Chandler, AZ 85286</div>
+
+<style>
+	h3 > a {
+		color: inherit
+	}
+</style>
