@@ -4,11 +4,11 @@
 		<ul>
 			<li><a href="/">Home</a></li>
 			<li><a href="/events">Events</a></li>
-			<li><a href="/blog">PSC 2023</a></li>
+			<li><a href="/psc-2023">PSC 2023</a></li>
 			<li><a href="/locations">Locations</a></li>
 			<li><a href="/gallery">Gallery</a></li>
 			<li><a href="/blog">Blog</a></li>
-			<li><a href="/blog">About</a></li>
+			<li><a href="/about">About</a></li>
 		</ul>
 	</nav>
 </header>
@@ -21,6 +21,29 @@
 	nav > ul {
 		display: flex;
 		justify-content: space-evenly;
-		width: 70%;
+		flex-wrap: wrap;
+		height: 100%;
+	    list-style-type: none;
 	}
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: rgba(36, 36, 36, 1);
+}
+
+nav > ul > li {
+	display: block;
+	padding: .5rem;
+}
+li > a {
+  color: inherit;
+  text-decoration: none;
+
+}
 </style>
