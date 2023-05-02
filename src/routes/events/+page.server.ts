@@ -3,35 +3,51 @@ import type { PageServerLoad } from './$types';
 export const load = (async () => {
 	let events = [
 		{
-			event_name: 'Phoenix Squadron Championship 2023 Redemption Tournament Aurek',
-			event_type: 'tournament',
-			event_date: '2023-05-06',
-			event_location: 'place',
-			event_desc: 'First Redemption Tournament'
+			name: 'Phoenix Squadron Championship 2023 Redemption Tournament Aurek',
+			type: 'tournament',
+			date: '2023-05-06',
+			location: 'place',
+			desc: 'First Redemption Tournament',
+			upcoming: true
 		},
 		{
-			event_name: 'Phoenix Squadron Championship 2023 Redemption Tournament Besh',
-			event_type: 'tournament',
-			event_date: '2023-05-06',
-			event_location: 'place',
-			event_desc: 'First Redemption Tournament'
+			name: 'Phoenix Squadron Championship 2023 Redemption Tournament Besh',
+			type: 'tournament',
+			date: '2023-05-06',
+			location: 'place',
+			desc: 'First Redemption Tournament',
+			upcoming: true
 		},
 		{
-			event_name: 'Phoenix Squadron Championship 2023 Redemption Tournament Cresh',
-			event_type: 'tournament',
-			event_date: '2023-05-06',
-			event_location: 'place',
-			event_desc: 'First Redemption Tournament'
+			name: 'Phoenix Squadron Championship 2023 Redemption Tournament Cresh',
+			type: 'tournament',
+			date: '2023-05-06',
+			location: 'place',
+			desc: 'First Redemption Tournament',
+			upcoming: true
 		},
 		{
-			event_name: 'Phoenix Squadron Championship 2023 Invitation Finals',
-			event_type: 'tournament',
-			event_date: '2023-05-06',
-			event_location: 'place',
-			event_desc: 'First Redemption Tournament'
+			name: 'Phoenix Squadron Championship 2023 Invitation Finals',
+			type: 'tournament',
+			date: '2023-05-20',
+			location: 'Gamers Guild',
+			desc: 'First Redemption Tournament',
+			upcoming: true
 		},
-
+		{
+			name: 'Phoenix Squadron Championship 2023 Division Play',
+			type: 'tournament',
+			date: '2023-05-06 to ',
+			location: 'Phoenix & Remote',
+			desc: 'Division Play for PSC 2023',
+			upcoming: false
+		}
 	];
 
-	return {events};
+	// TODO: Need to create event type/learn how typescript works
+	// so I don't have to filter this array twice
+	let upcoming = events.filter((x) => x.upcoming);
+	let past = events.filter((x) => !x.upcoming);
+
+	return { upcoming, past };
 }) satisfies PageServerLoad;
