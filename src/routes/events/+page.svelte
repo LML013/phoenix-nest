@@ -11,9 +11,9 @@
 
 {#each data.events as event}
 <h4 class={event.event_type}>{event.event_name}</h4>
-<p>Date: {event.event_date}</p>
+<em>{event.event_date} at {event.event_location}</em>
+<p>{event.event_desc}</p>
 {/each}
-<h4 class="tournament">Phoenix Squadron Championship 2023 Invitation Finals</h4>
 
 <h4>Past Events</h4>
 <h4 class="league">Phoenix Squadron Championship 2023 Division Play</h4>
