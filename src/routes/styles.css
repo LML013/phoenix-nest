@@ -3,7 +3,7 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(36, 36, 36);
-	--color-text: rgba(237,218, 0, 0.8);
+	--color-text: rgb(237, 217, 0);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
