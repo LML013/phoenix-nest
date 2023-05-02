@@ -23,27 +23,26 @@
 		justify-content: space-evenly;
 		flex-wrap: wrap;
 		height: 100%;
-	    list-style-type: none;
+		list-style-type: none;
 	}
 
-header {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  background-color: rgba(36, 36, 36, 1);
-}
+	header {
+		width: 100%;
+		height: 6rem;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		background-color: rgba(36, 36, 36, 1);
+	}
 
-nav > ul > li {
-	display: block;
-	padding: .5rem;
-}
-li > a {
-  color: inherit;
-  text-decoration: none;
-
-}
+	nav > ul > li {
+		display: block;
+		padding: 0.5rem;
+	}
+	li > a {
+		color: inherit;
+		text-decoration: none;
+	}
 </style>

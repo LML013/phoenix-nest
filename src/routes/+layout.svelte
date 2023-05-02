@@ -22,10 +22,18 @@
 	main {
 		width: 80%;
 		margin-top: 0;
-		margin-bottom: 10px;
+		margin-bottom: 2rem;
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 600px;
-		padding-top: 50px;
+		padding-top: 6rem;
+		padding-bottom: 4rem;
+		flex: 1 0 auto
+	}
+
+	.app {
+  		display: flex;
+  		flex-direction: column;
+  		height: 100vh;
 	}
 </style>

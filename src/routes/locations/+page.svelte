@@ -13,7 +13,7 @@
 <p>Open Play on Thursdays</p>
 <div class="location">1550 N Stonehenge Dr #102, Gilbert, AZ 85234</div>
 
-<h3><a href="https://gamersguildaz.com">Gamers Guild</a></h3>
+<h3><a href="https://gamersguildaz.com" id="gamers-guild">Gamers Guild</a></h3>
 <!-- image? -->
 <p>Open Play on Tuesdays</p>
 <div class="location">2223 S 48th St Suite C/D, Tempe, AZ 85282</div>
