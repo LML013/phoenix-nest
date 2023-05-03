@@ -3,41 +3,50 @@ import type { PageServerLoad } from './$types';
 export const load = (async () => {
 	let events = [
 		{
-			name: 'Phoenix Squadron Championship 2023 Redemption Tournament Aurek',
+			name: 'Phoenix Squadron Championship 2023 - Redemption Tournament - Aurek',
 			type: 'tournament',
-			date: '2023-05-06',
-			location: 'place',
+			start_date: '2023-05-06',
+			location: 'Games U',
 			desc: 'First Redemption Tournament',
 			upcoming: true
 		},
 		{
-			name: 'Phoenix Squadron Championship 2023 Redemption Tournament Besh',
+			name: 'Phoenix Squadron Championship 2023 - Redemption Tournament - Besh',
 			type: 'tournament',
-			date: '2023-05-06',
-			location: 'place',
-			desc: 'First Redemption Tournament',
+			start_date: '2023-05-06',
+			location: 'Imperial Outpost',
+			desc: 'Second Redemption Tournament',
 			upcoming: true
 		},
 		{
-			name: 'Phoenix Squadron Championship 2023 Redemption Tournament Cresh',
+			name: 'Phoenix Squadron Championship 2023 - Redemption Tournament - Tusken Raiders',
 			type: 'tournament',
-			date: '2023-05-06',
-			location: 'place',
-			desc: 'First Redemption Tournament',
+			start_date: '2023-05-06',
+			location: 'Tuscon',
+			desc: 'Third Redemption Tournament',
 			upcoming: true
 		},
 		{
-			name: 'Phoenix Squadron Championship 2023 Invitation Finals',
+			name: 'Phoenix Squadron Championship 2023 - Redemption Tournament - Cresh',
 			type: 'tournament',
-			date: '2023-05-20',
+			start_date: '2023-05-13',
+			location: 'Tabletop Wargamers',
+			desc: 'Fourth Redemption Tournament',
+			upcoming: true
+		},
+		{
+			name: 'Phoenix Squadron Championship 2023',
+			type: 'tournament',
+			start_date: '2023-05-20',
 			location: 'Gamers Guild',
-			desc: 'First Redemption Tournament',
+			desc: 'Invitation Finals',
 			upcoming: true
 		},
 		{
-			name: 'Phoenix Squadron Championship 2023 Division Play',
+			name: 'Phoenix Squadron Championship 2023 - League Play',
 			type: 'tournament',
-			date: '2023-05-06 to ',
+			start_date: '2023-03-19',
+			end_date: '2023-04-29',
 			location: 'Phoenix & Remote',
 			desc: 'Division Play for PSC 2023',
 			upcoming: false
