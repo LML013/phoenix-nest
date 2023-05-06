@@ -64,6 +64,9 @@ export const load = (async () => {
 
 	// TODO: Need to create event type/learn how typescript works
 	// so I don't have to filter this array twice
+	
+	// TODO: determine upcoming/past using timestamp comparison 
+	// rather than boolean upcoming flag 
 	let upcoming = events.filter((x) => x.upcoming);
 	let past = events.filter((x) => !x.upcoming);
 
