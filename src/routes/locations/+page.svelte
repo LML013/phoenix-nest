@@ -18,13 +18,16 @@
 {/each}
 
 <style>
-	h2 {
+	h2, h3 {
 		text-decoration: underline;
-	}
-	h3 > a {
-		color: inherit;
 	}
 	p {
 		text-indent: 1rem;
+	}
+	a {
+		color: inherit;
+	}
+	a:hover {
+		color: lightblue;
 	}
 </style>

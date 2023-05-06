@@ -32,7 +32,7 @@
 		margin-bottom: 2rem;
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 600px;
+		max-width: 700px;
 		padding-top: 6rem;
 		padding-bottom: 4rem;
 		flex: 1 0 auto
