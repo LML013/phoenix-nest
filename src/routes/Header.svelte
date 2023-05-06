@@ -2,13 +2,13 @@
 	<h1>Phoenix Squadron</h1>
 	<nav>
 		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/events">Events</a></li>
-			<li><a href="/psc-2023">PSC 2023</a></li>
-			<li><a href="/locations">Locations</a></li>
-			<li><a href="/gallery">Gallery</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/about">About</a></li>
+			<a href="/"><li>Home</li></a>
+			<a href="/events"><li>Events</li></a>
+			<a href="/psc-2023"><li>PSC 2023</li></a>
+			<a href="/locations"><li>Locations</li></a>
+			<a href="/gallery"><li>Gallery</li></a>
+			<a href="/blog"><li>Blog</li></a>
+			<a href="/about"><li>About</li></a>
 		</ul>
 	</nav>
 </header>
@@ -37,12 +37,16 @@
 		background-color: rgba(36, 36, 36, 1);
 	}
 
-	nav > ul > li {
+	nav > ul > a > li {
 		display: block;
 		padding: 0.5rem;
 	}
-	li > a {
+	a {
 		color: inherit;
 		text-decoration: none;
+	}
+
+	a:hover{
+		color: lightblue
 	}
 </style>
