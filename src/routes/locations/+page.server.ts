@@ -27,13 +27,13 @@ export const load = (async () => {
 		{
 			name: 'Gamers Guild',
 			addr: '2223 S 48th St Suite C/D, Tempe, AZ 85282',
-			desc: null,
+			desc: 'Hosts monthly tournaments',
 			url: 'https://gamersguildaz.com',
 			nights: null,
 			//TODO: connect to an image
 			img: null,
 			//TODO: connect to a player object, somehow
-			contact: null
+			contact: "John G."
 		},
 		{
 			name: 'Imperial Outpost',
