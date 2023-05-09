@@ -1,20 +1,19 @@
 <script lang="ts">
-    export let location;
-    
-    const {id, name, desc, nights, addr, url} = location;
+	export let location;
 
+	const { slug, name, desc, nights, addr, url, addr_url } = location;
 </script>
 
-<h3 {id}>{name}</h3>
-{#if {desc}}
-    <p>{desc}</p>
+<h3 id={slug}>{name}</h3>
+{#if desc}
+	<p>{desc}</p>
 {/if}
-{#if {nights}}
-    <p>Open Play {nights} Nights</p>
+{#if nights}
+	<p>Open Play {nights} Nights</p>
 {/if}
-<p><em>{addr}</em></p>
-{#if {url}}
-    <p><a href={url}>{url}</a></p>
+<p><a href={addr_url} target="_blank"><em>{addr}</em></a></p>
+{#if url}
+    <p><a href={url} target="_blank">{url}</a></p>
 {/if}
 
 <style>
