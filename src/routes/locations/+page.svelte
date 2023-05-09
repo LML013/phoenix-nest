@@ -1,13 +1,14 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	// import Venue from './Venue.svelte';
 
 	export let data: PageData;
 </script>
 
 <h2>Locations</h2>
 <!-- to be turned into components pulling from database later -->
-{#each data.locations as location}
-	<h3>{location.name}</h3>
+{#each data.locations as location}	
+	<h3 id={location.slug}>{location.name}</h3>
 	{#if location.desc}
 		<p>{location.desc}</p>
 	{/if}
@@ -18,6 +19,7 @@
 	{#if location.url}
 		<p><a href={location.url}>{location.url}</a></p>
 	{/if}
+	<!-- <Venue {location}/> -->
 {/each}
 
 <style>
