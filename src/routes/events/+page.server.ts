@@ -65,6 +65,16 @@ export const load = (async () => {
 			location_slug: null,
 			desc: 'Division Play for PSC 2023',
 			upcoming: false
+		},
+		{
+			name: 'Silver Key Store Championship',
+			type: 'store-championship',
+			start_date: '2023-06-17',
+			location: 'The Silver Key Lounge',
+			location_slug: 'the-silver-key-lounge',
+			desc: 'Store Championship with Organized Play Store Kit',
+			prizes: 'OP Store Kit',
+			upcoming: true
 		}
 	];
 
