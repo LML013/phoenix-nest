@@ -33,7 +33,7 @@
 		justify-content: space-evenly;
 		align-items: center;
 		position: fixed;
-		top: 0;
+		top: 0px;
 		background-color: rgba(36, 36, 36, 1);
 	}
 

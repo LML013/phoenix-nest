@@ -19,6 +19,7 @@
 <style>
 	h3 {
 		text-decoration: underline;
+		padding-top: 6rem;
 	}
 	p {
 		text-indent: 1rem;
