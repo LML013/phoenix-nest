@@ -44,7 +44,7 @@ export const load = (async () => {
 			location_slug: 'tabletop-wargamers',
 			desc: 'Fourth Redemption Tournament',
 			url: 'https://rollbetter.gg/tournaments/326',
-			upcoming: true
+			upcoming: false
 		},
 		{
 			name: 'Phoenix Squadron Championship 2023',
@@ -54,6 +54,7 @@ export const load = (async () => {
 			location: 'Gamers Guild',
 			location_slug: 'gamers-guild',
 			desc: 'Invitation Finals',
+			url: 'https://rollbetter.gg/tournaments/408',
 			upcoming: true
 		},
 		{
